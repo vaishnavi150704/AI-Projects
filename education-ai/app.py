@@ -6,7 +6,7 @@ st.set_page_config(page_title="Multi-Agent Education System", layout="centered")
 
 # Initialize Gemini Client (Use your working key)
 # It's safer to put your key in a sidebar or secrets, but we'll keep it here for now
-client = genai.Client(api_key="AIzaSyChPiPAgfpolCqRGnOEOWZzgGtAYuBkTwM")
+client = genai.Client(api_key = st.secrets["GOOGLE_API_KEY"])
 MODEL_ID = "gemini-3.1-flash-lite-preview"
 
 # --- AGENT LOGIC ---
