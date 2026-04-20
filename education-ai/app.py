@@ -5,7 +5,7 @@ import time
 import random
 import json
 
-# ── CONFIG ──────────────────────────────────────────────
+# ── CONFIG ──────────────────────────────────────────────  
 st.set_page_config(page_title="EduAgent AI", page_icon="🎓", layout="wide")
 
 # ── SESSION STATE INIT ───────────────────────────────────
